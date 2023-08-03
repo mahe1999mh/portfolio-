@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+    .nav1 {
+        width: 100%;
+        height: 100vh;
+        background-color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        transition: 10ms;
+    }
+
+    .nav1 li {
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .mobileMenu {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .triger {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        transition: 1s;
+
+    }
+}

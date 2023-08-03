@@ -1,0 +1,166 @@
+.home {
+    /* background-color: reb(249, 249, 249); */
+    background-color: rgba(249, 249, 249);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.profileData {
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+.profile {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(211, 222, 222); */
+}
+
+.techStack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10%;
+    padding-right: 25%;
+
+}
+
+.techStack h2 {
+    padding-right: 10px;
+    border-right: 2px solid black;
+}
+
+.profilePic {
+    width: 50%;
+    padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.profile img {
+    border-radius: 5%;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    border: 3px solid #2d2e32;
+    background-position: 50%;
+    height: 30rem;
+    background-position: 50%
+}
+
+
+
+.profiletext {
+    padding-left: 30%;
+    padding-top: 10%;
+    padding-right: 5%;
+}
+
+.profiletext h1 {
+    color: rgb(45, 46, 50);
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.profiletext p {
+    color: rgb(99, 102, 105);
+}
+
+.brandsIcons {
+    display: flex;
+    gap: 20px;
+    padding-top: 6%;
+
+}
+
+.brandsIcons h2 a {
+    color: black;
+    font-size: 30px;
+}
+
+
+@media (max-width: 767px) {
+    .home {
+        background-color: rgba(249, 249, 249);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding-bottom: 5%; */
+    }
+
+    .profiletext {
+        padding: 0;
+        padding-top: 20%;
+    }
+
+    .profiletext h1 {
+        font-size: xx-large;
+    }
+
+    .techStack {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-right: 0;
+    }
+
+    .techStack h2 {
+        border-right: none;
+        width: 100vw;
+        text-align: center;
+        padding-right: 0;
+
+    }
+
+    .profilePic {
+        padding-top: 10%;
+    }
+
+    .profiletext h1 {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 20px
+    }
+
+    .profiletext p {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 20px
+    }
+
+    .profiletext h1 a {
+        text-align: center;
+    }
+
+    .brandsIcons {
+        display: flex;
+        gap: 20px;
+        padding-top: 6%;
+        justify-content: center;
+
+    }
+
+    .profile img {
+        border-radius: 5%;
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        border: 3px solid #2d2e32;
+        background-position: 50%;
+        height: 20rem;
+        background-position: 50%
+    }
+}
