@@ -50,7 +50,7 @@
 
 @media (max-width: 767px) {
 
-    
+
     .nav {
         padding-left: 0;
         display: none;
@@ -62,7 +62,7 @@
         width: 90%;
         padding: 20px;
         height: 5vh;
-        padding-left: 0px;
+        /* padding-left: 0px; */
     }
 
 

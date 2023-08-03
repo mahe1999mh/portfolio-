@@ -50,13 +50,25 @@
 .profile img {
     border-radius: 5%;
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-    border: 3px solid #2d2e32;
+    border: 3px solid #4b9762;
     background-position: 50%;
     height: 30rem;
-    background-position: 50%
+    /* animation: borderRadiusTransition 8s infinite alternate; */
+    animation: morph 8s ease-in-out infinite;
+    animation: morph 8s ease-in-out infinite;
 }
 
+@keyframes morph {
 
+    0%,
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 40% 70%/40% 70% 60% 30%;
+    }
+}
 
 .profiletext {
     padding-left: 30%;
