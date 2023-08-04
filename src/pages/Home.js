@@ -1,7 +1,16 @@
 import React from "react";
 import Header from "./Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faHtml5,
+  faSquareJs,
+  faCss3Alt,
+  faReact,
+  faNodeJs,
+  faNode,
+} from "@fortawesome/free-brands-svg-icons";
 import "./css/home.css";
 import profile from "../assets/mahendra.png";
 
@@ -23,7 +32,6 @@ const Home = () => {
             </h1>
             <p>
               <h4>
-                {" "}
                 Hi, I'm Mahendra Reddy. A passionate Front-end React Developer
                 based in India, Bangalore. 📍
               </h4>
@@ -43,7 +51,53 @@ const Home = () => {
           </div>
           <div className="techStack">
             <h2>Tech Stack</h2>
-            <div className="techStackIcons"></div>
+            <div className="techStackIcons">
+              <ul>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faHtml5}
+                    size="2xl"
+                    style={{ color: "#f75c08" }}
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faCss3Alt}
+                    size="2xl"
+                    style={{ color: "#0659ea" }}
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faSquareJs}
+                    size="2xl"
+                    style={{ color: "#edcf07" }}
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faReact}
+                    spinPulse
+                    size="2xl"
+                    style={{ color: "#2c9ac9" }}
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faNodeJs}
+                    size="2xl"
+                    style={{ color: "#2d8108" }}
+                  />
+                </li>
+                <li>
+                  <FontAwesomeIcon
+                    icon={faNode}
+                    size="2xl"
+                    style={{ color: "#36820d" }}
+                  />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="profile">
